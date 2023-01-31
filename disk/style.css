@@ -1,0 +1,130 @@
+.navbar-brand {
+  font-family: Viga;
+  font-size: 42;
+}
+
+/* versi desktop */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #f97bc4;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 440px;
+  }
+}
+
+.jumbotron img {
+  width: 170px;
+  border-radius: 30px;
+  box-shadow: 0 3px 5px #fff;
+  margin-bottom: 30px;
+  margin-top: 84px;
+}
+
+span {
+  color: #7bafaf;
+}
+
+.jumbotron h2 {
+  margin-bottom: 15px;
+  color: black;
+  font-family: Viga;
+  font-size: 32;
+}
+
+.jumbotron p {
+  color: black;
+  font-family: Viga;
+  font-size: 32;
+}
+
+.jumbotron .gambar {
+  margin-top: 10px;
+}
+width: 200px;
+.banner-left {
+  padding-left: 25px;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  background-image: url('../img/re.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 150px 0;
+  height: 730px;
+}
+
+/* Info panel */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 14px;
+  margin-top: -95px;
+  background-color: white;
+  padding: 30px;
+}
+
+.info-panel img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+width: 200px;
+
+.info-panel p {
+  font-size: 14px;
+  color: black;
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+/* About */
+
+section {
+  padding-top: 10rem;
+}
+
+/* awal dari favorite */
+#favorit {
+  background-color: #7bafaf;
+}
+
+#favorit {
+  padding-top: 2rem;
+}
+
+/* Awal dari galeri */
+.gallery-img {
+  widht: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
